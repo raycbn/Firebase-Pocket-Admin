@@ -11,13 +11,10 @@ class FireAdminApp extends StatelessWidget {
     return MaterialApp(
       title: 'FireAdmin',
       debugShowCheckedModeBanner: false,
-
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-
       initialRoute: AppRoutes.splash,
-
       routes: AppRoutes.routes,
     );
   }
